@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* header */
 .inter-font {
   font-family: 'Inter', sans-serif;
   font-optical-sizing: auto;
@@ -54,6 +55,8 @@
   font-size: 16px;
   font-weight: 600;
 }
+
+/* hero section */
 .hero-section {
   background-image: url('./assets/hero-bg.png');
   background-size: cover;
@@ -165,6 +168,8 @@
     opacity: 1;
   }
 }
+
+/* about section */
 .about-section {
   background-color: #1a0b2e;
   height: 646px;
@@ -217,4 +222,168 @@
   font-weight: 400;
   color: #ffff;
   margin-top: 16px;
+}
+
+/* why choose section */
+.w-section {
+  background-color: #230e3d;
+  padding: 100px 525px;
+  color: #ffff;
+  height: 1122px;
+}
+
+.w-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.w-title {
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.w-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  width: 1440px;
+  height: 783px;
+}
+
+.w-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  background-color: #351165;
+  border-radius: 12px;
+}
+
+.w-item img {
+  width: 60px;
+  height: 60px;
+}
+
+.w-title {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.w-description {
+  font-size: 16px;
+  font-weight: 400;
+}
+/* features episode */
+.e-h-section {
+  background-color: #1a0b2e;
+  padding: 100px 200px;
+  color: #ffff;
+  height: 1278px;
+  width: 1920px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.episode-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+.episode-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #250d44;
+  border-radius: 10px;
+  width: 380px;
+  height: 440px;
+}
+
+.episode-card iframe {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.episode-title {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 24px 24px 12px 24px;
+}
+
+.episode-description {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 20px 20px 0 20px;
+}
+
+.e-time {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00ff88;
+}
+.e-time img {
+  height: 20px;
+  width: 20px;
+}
+
+.host-card {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  background-color: #351165;
+  width: 1440px;
+  height: 280px;
+  border-radius: 20px;
+}
+
+.host-photo {
+  object-fit: cover;
+  margin: 40px 24px 40px 40px;
+}
+
+.host-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 183px;
+  width: 896px;
+  justify-content: center;
+  margin: 40px 40px 40px 0;
+}
+
+.host-name {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.host-description {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.host-socials {
+  display: flex;
+  gap: 8px;
+}
+.host-socials a {
+  border: 1px solid rgba(83, 60, 114, 1);
+  border-radius: 10px;
+}
+.host-socials img {
+  height: 20px;
+  width: 20px;
 }
