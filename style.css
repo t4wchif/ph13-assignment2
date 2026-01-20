@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.inter-font {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+}
+.header {
+  background-color: #412567;
+  height: 92px;
+  width: 1920px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  max-width: 1440px;
+}
+
+.logo img {
+  height: 32px;
+  display: block;
+}
+
+.menu-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.menu-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.subscribe-btn a {
+  background: linear-gradient(to right, #ff00cc, #ffcc00);
+  padding: 12px 24px;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
